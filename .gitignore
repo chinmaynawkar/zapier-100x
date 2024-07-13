@@ -5,6 +5,3 @@ node_modules
 # Ignore typescript output
 dist
 
-# Ignore Prisma CLI binary
-prisma
-
