@@ -3,7 +3,7 @@ import express, { Request, Response } from 'express';
 const app = express();
 const port = process.env.BASE_URL;
 
-// https://hooks.zapier.com/hooks/catch/17043103/22b8496/
+// https://hooks.zapier.com/hooks/catch/--
 // password logic
 app.post("/hooks/catch/:userId/:zapId", (req, res) => {
     const userId = req.params.userId;
